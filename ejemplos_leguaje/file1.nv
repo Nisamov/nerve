@@ -1,0 +1,13 @@
+# Declaro variables tras leer y almacenar datos
+console.ask("Ingrese su nombre"); $nombre_usuario
+
+if[$nombre_usuario == "nerve"]{
+    console.message("El nombre del usuario es nerve");
+}
+else if[$nombre_usuario == "nisamov"]{
+    console.message("El nombre del usuario es nisamov");
+}
+else{
+    console.message("El nombre del usuario es " $nombre_usuario);
+};
+fi
